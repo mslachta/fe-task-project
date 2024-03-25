@@ -1,9 +1,9 @@
 import "./App.css";
-import NavigationBar from "./components/NavigationBar";
+import AppRouter from "./router/AppRouter";
 export default function App() {
   return (
     <>
-      <NavigationBar />
+      <AppRouter />
     </>
   );
 }
